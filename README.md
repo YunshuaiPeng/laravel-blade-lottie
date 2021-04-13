@@ -57,7 +57,7 @@
 ### 调用方法
 在 blade 组件中，初始化 alpinejs 的时候，`lottie-web` 实例被绑定给了 `animation`。所以，可以使用 `animation` 来调用 `lottie-web` 提供的方法，从而控制动画。
 
-例如，如果想要单击动画停止播放，可以在 click 事件中，通过调用 `animation.stop()` 来实现。
+例如，如果想要单击动画停止播放，可以在 click 事件中，通过调用 `animation.stop()` 来实现。click 是 alpinejs 提供的，在 [alpinejs#use](https://github.com/alpinejs/alpine#use) 可以查看更多用法。
 ```html
 <x-lottie-hello @click="animation.stop()"/>
 ```
