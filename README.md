@@ -15,7 +15,7 @@
 在需要用到页面中添加 `<script src="{{ asset('vendor/lottie/app.js') }}" defer></script>`。但是通常来说，把它添加到 `views/layouts/app.blade.php` 中会比较方便。
 
 ### 引入 lottie animation files
-在 [lottie files](https://lottiefiles.com/) 官方网站上可以免费下载 json 文件。下载文件需要注册一个账号，我在[这里](https://cdn.jsdelivr.net/gh/pys1992/storage@main/hello-lottie.json)提供了一个测试用的 json，将其中的内容复制到 `storage/app/public/lottiefiles/hello.json`。
+在 [lottie files](https://lottiefiles.com/) 官方网站上可以免费下载 json 文件。下载文件需要注册一个账号，我在[这里](https://raw.githubusercontent.com/pys1992/storage/main/hello-lottie.json)提供了一个测试用的 json，将其中的内容复制到 `storage/app/public/lottiefiles/hello.json`。
 
 ### 使用组件
 在 `views/layouts/app.blade.php` 引入 `<x-lottie-hello/>`，打开你的项目地址，就可以看到：
