@@ -20,7 +20,7 @@
 ### 使用组件
 在 `views/layouts/app.blade.php` 引入 `<x-lottie-hello/>`，打开你的项目地址，就可以看到：
 
-![](https://cdn.jsdelivr.net/gh/pys1992/storage@main/image/20210331110313.gif)
+![](https://cdn.jsdelivr.net/gh/pys1992/storage@main/20210331110313.gif)
 
 ## 关于 app.js
 首先，[lottie-web](https://github.com/airbnb/lottie-web) 是必不可少的，另外我还使用了 [alpinejs](https://github.com/alpinejs/alpine)，用于实现一些 js 的操作。我把他们打包到了 `public/vendor/lottie/app.js` 中，你可以直接使用。
