@@ -81,3 +81,4 @@
 ## 关于 data_source
 支持配置 url 和 content。选择 url ，浏览器会发请求去获取 json 数据，意味着会增加网络开销；而选择 content，则 json 数据会通过后端渲染，附加到 HTML 中发送给前端，如果 json 数据很大，则你的 HTML 页面可能也会变得很大，但是我没有测试。
 
+如果使用 url 的方式，不要忘了在 .env 文件中配置正确的 APP_URL，以及执行 `php artisan storage:link`
