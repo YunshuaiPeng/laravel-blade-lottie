@@ -20,10 +20,6 @@
         "php": "^7.4|^8.0",
         "illuminate/contracts": "^6.0|^7.0|^8.0|^9.0|^10.0"
     },
-    "require-dev": {
-        "orchestra/testbench": "^6.0",
-        "phpunit/phpunit": "^9.3"
-    },
     "autoload": {
         "psr-4": {
             "Pys\\Lottie\\": "src"
