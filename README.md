@@ -63,7 +63,7 @@
 ```
 
 ## 自定义 class
-自定 class 的会被追加到动画的容器上，参考 [laravel 文档](https://laravel.com/docs/8.x/blade#default-merged-attributes)。
+自定 class 的会被追加到动画的容器上，参考 [laravel 文档](https://laravel.com/docs/master/blade#default-merged-attributes)。
 
 例如，可以自定义 class：
 ```html
@@ -71,7 +71,7 @@
 ```
 
 ## 自定义非 class 属性
-自定属性的会被添加到动画容器上，如果已存在相同属性，则会把原来的覆盖，参考 [laravel 文档](https://laravel.com/docs/8.x/blade#non-class-attribute-merging)。
+自定属性的会被添加到动画容器上，如果已存在相同属性，则会把原来的覆盖，参考 [laravel 文档](https://laravel.com/docs/master/blade#non-class-attribute-merging)。
 
 例如，可以自定义 style：
 ```html
