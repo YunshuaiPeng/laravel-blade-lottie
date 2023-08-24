@@ -3,7 +3,7 @@
 ## 用法
 ### 安装包
 
-    composer require pys/laravel-blade-lottie
+    composer require ys/laravel-blade-lottie
 
 ### 发布必要文件
 
