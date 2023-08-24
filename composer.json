@@ -4,9 +4,8 @@
     "type": "library",
     "license": "MIT",
     "keywords": [
-        "Blade",
         "Lottie",
-        "Laravel",
+        "Laravel Blade",
         "AE Animation",
         "阿里犸良"
     ],
