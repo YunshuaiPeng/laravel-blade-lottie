@@ -1,4 +1,4 @@
-顾名思义，laravel-blade-lottie 可以让你更方便的在 blade 模板中使用 [lottie animation json files](https://lottiefiles.com/)，也可以使用[iconfont.cn 的 Lottie 库](https://www.iconfont.cn/lotties/index)中的动画。
+顾名思义，laravel-blade-lottie 可以让你更方便的在 blade 模板中使用 [lottie animation json files](https://lottiefiles.com/)，也可以使用 [iconfont.cn Lottie 库](https://www.iconfont.cn/lotties/index)中的动画。
 
 ## 用法
 ### 安装包
